@@ -1,3 +1,5 @@
+![oracle-plsql](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/e67f8cfc-c6e1-42de-bd19-94c98831c91d)
+
 # Oracle PL/SQL
 
 This is a presentation portfolio for a reduced example of a DB that controls the registration of Customers, Products and Sales.
