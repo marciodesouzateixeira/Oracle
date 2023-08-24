@@ -20,7 +20,7 @@ A procedure **DeleteOldLogs** was created to clean up the log table and a daily 
 A function **GetStockStatus** has been created to calculate whether the stock of a product needs any attention, for example, if it is zero, with excesses or if it is ok.
 
 ## View ##
-Two Views were created (VW_PRODUCTS, VW_SALES) to make it easier to search for data related to Sale and also to search for data related to Product registration. By creating these views, it is possible to centralize business rules that are consumed by various sources such as procedures, systems, manual queries, etc.
+Two Views were created (VW_PRODUCTS, VW_SALES) to make it easier to search for data related to Sale and also to search for data related to Product registration. By creating these views, it is possible to centralize business rules that are consumed by various sources such as procedures, functions, applications, manual queries, etc.
 
 ## Log ##
 A generic table was created to record Insert, Update and Delete logs for any table, using a JSON format. To record in this table it is necessary to create a trigger for each table, in this trigger a process was used to generate a JSON structure, where only the fields that have changed will be recorded, thus leaving cleaner and leaner information.
