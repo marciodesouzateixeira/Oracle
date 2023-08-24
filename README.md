@@ -13,14 +13,17 @@ There is a logging process for each record creation and change, so triggers and 
 ## Triggers ##
 Triggers were created in all tables to automatically record "when a record was created" and "when a record was updated", this is important in situations where it is necessary to do data exports only of new or changed records from a date onwards.
 
-## Log ##
-A generic table was created to record Insert, Update and Delete logs for any table, using a JSON format. To record in this table it is necessary to create a trigger for each table, in this trigger a process was used to generate a JSON structure, where only the fields that have changed will be recorded, thus leaving cleaner and leaner information.
-
 ## Procedure and Job ##
 A procedure **DeleteOldLogs** was created to clean up the log table and a daily schedule was scheduled to run this procedure.
 
 ## Function ##
 A function **GetStockStatus** has been created to calculate whether the stock of a product needs any attention, for example, if it is zero, with excesses or if it is ok.
+
+## View ##
+Two Views were created (VW_PRODUCTS, VW_SALES) to make it easier to search for data related to Sale and also to search for data related to Product registration. By creating these views, it is possible to centralize business rules that are consumed by various sources such as procedures, systems, manual queries, etc.
+
+## Log ##
+A generic table was created to record Insert, Update and Delete logs for any table, using a JSON format. To record in this table it is necessary to create a trigger for each table, in this trigger a process was used to generate a JSON structure, where only the fields that have changed will be recorded, thus leaving cleaner and leaner information.
 
 ## Primary Key PK ##
 All tables have a PK of just a single field, as this facilitates relationships between tables and consumption by languages such as Java.
