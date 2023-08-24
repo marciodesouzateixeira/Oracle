@@ -1,4 +1,4 @@
-# Oracle
+# Oracle PL/SQL
 
 This is a presentation portfolio for a reduced example of a DB that controls the registration of Customers, Products and Sales.
 
