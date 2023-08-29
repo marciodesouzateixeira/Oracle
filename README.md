@@ -22,6 +22,9 @@ A function **GetStockStatus** has been created to calculate whether the stock of
 ### Scalar ###
 In the VW_Customers view, some scalar functions were used, such as CONCAT and EXTRACT, to make it easier to see the month and day of the customer's birthday
 
+### Aggregate ###
+In the VW_CUSTOMERS_SALES view was created in order to create a view of the customers with the count of orders for each customer and the sum of all the orders for each customer, using COUNT and SUM functions.
+
 ## View ##
 Two Views were created (VW_PRODUCTS, VW_SALES) to make it easier to search for data related to Sale and also to search for data related to Product registration. By creating these views, it is possible to centralize business rules that are consumed by various sources such as procedures, functions, applications, manual queries, etc.
 
