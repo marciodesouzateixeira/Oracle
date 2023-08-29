@@ -230,6 +230,22 @@
 	"CREATEDAT" TIMESTAMP (6), 
 	"UPDATEDAT" TIMESTAMP (6)
    ) ;
+
+--------------------------------------------------------
+--  DDL for View VW_CUSTOMERS_SALES
+--------------------------------------------------------
+select 
+  c.customerid,
+  c.firstname,
+  count(distinct s.saleid) order_qty,
+  sum(si.totalprice) order_total
+from 
+  customers c inner join sales s on c.customerid = s.customerid
+  left join saleitems si on si.saleid = s.saleid
+group by 
+  c.customerid,c.firstname
+order by 3 desc
+	
 --------------------------------------------------------
 --  DDL for View VW_CUSTOMERS
 --------------------------------------------------------
