@@ -19,6 +19,9 @@ A procedure **DeleteOldLogs** was created to clean up the log table and a daily 
 ## Function ##
 A function **GetStockStatus** has been created to calculate whether the stock of a product needs any attention, for example, if it is zero, with excesses or if it is ok.
 
+### Scalar ###
+Teste
+
 ## View ##
 Two Views were created (VW_PRODUCTS, VW_SALES) to make it easier to search for data related to Sale and also to search for data related to Product registration. By creating these views, it is possible to centralize business rules that are consumed by various sources such as procedures, functions, applications, manual queries, etc.
 
