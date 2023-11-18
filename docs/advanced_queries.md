@@ -10,5 +10,22 @@ And now we may have two needs:
 First fetch all lost IDs starting from code 1
 Second option is to identify the missing IDs between the smallest and largest IDs in my table
 
+First option:
+```
+SELECT DISTINCT LEVEL AS MissingProductId
+FROM dual
+CONNECT BY LEVEL <= (SELECT MAX(productid) FROM products_bkp)
+MINUS
+SELECT productid
+FROM products_bkp;
+```
 
-
+Second option:
+```
+SELECT DISTINCT LEVEL + (SELECT min(productid) FROM products_bkp) AS MissingProductId
+FROM dual
+CONNECT BY LEVEL <= (SELECT MAX(productid) - min(productid) FROM products_bkp)
+MINUS
+SELECT productid
+FROM products_bkp;
+```
