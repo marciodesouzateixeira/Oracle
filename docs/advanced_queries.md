@@ -20,7 +20,7 @@ MINUS
 SELECT productid
 FROM products_bkp;
 ```
-https://user-images.githubusercontent.com/44147082/284018811-a4b60101-fe7f-448e-992c-05b4b0b9bdc1.png
+![pic_opt2](https://user-images.githubusercontent.com/44147082/284018811-a4b60101-fe7f-448e-992c-05b4b0b9bdc1.png)
 
 Second option:
 ```
