@@ -5,6 +5,7 @@
 1. Search for deleted IDs: let's create some queries to display IDs that have been deleted from your table:
 
 Let's start with a table with 5 records with the following IDs: 3, 4, 12, 16 and 19
+![pic_table](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/1a39d327-ce29-4f01-bf8f-5dcf65d2c838)
 
 And now we may have two needs:
 First fetch all lost IDs starting from code 1
