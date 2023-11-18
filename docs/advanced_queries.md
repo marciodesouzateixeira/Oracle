@@ -20,7 +20,7 @@ MINUS
 SELECT productid
 FROM products_bkp;
 ```
-https://github.com/marciodesouzateixeira/Oracle/issues/3
+[https://github.com/marciodesouzateixeira/Oracle/issues/3](https://github.com/marciodesouzateixeira/Oracle/issues/3#issue-2000544891)
 
 Second option:
 ```
