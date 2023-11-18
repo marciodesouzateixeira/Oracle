@@ -21,6 +21,19 @@ FROM products_bkp;
 ```
 ![pic_opt2](https://user-images.githubusercontent.com/44147082/284018811-a4b60101-fe7f-448e-992c-05b4b0b9bdc1.png)
 
+Here is another query option
+```
+WITH AllProductIds AS (
+    SELECT LEVEL AS MissingProductId
+    FROM dual
+    CONNECT BY LEVEL <= (SELECT MAX(productid) FROM products_bkp)
+)
+SELECT MissingProductId
+FROM AllProductIds
+WHERE MissingProductId NOT IN (SELECT PRODUCTID FROM C##APP.products_bkp)
+order by 1;
+```
+
 Second option: is to identify the missing IDs between the smallest and largest IDs in my table
 ```
 SELECT DISTINCT LEVEL + (SELECT min(productid) FROM products_bkp) AS MissingProductId
