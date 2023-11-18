@@ -39,3 +39,6 @@ As this is a small DB and an experiment, simple indexes have been created on the
 
 ## Foreign Key FK ##
 FKs were created for all the necessary fields.
+
+## Advanced queries:
+- [Advanced queries](docs/advaned_queries.md)
