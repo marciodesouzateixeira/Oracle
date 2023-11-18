@@ -1,8 +1,14 @@
 [Voltar](../README.md)
 
-# Estrutura de pastas da Solution
+# Advanced queries
 
-Foi criado uma separação de pastas por projetos de "fonte" e "testes", seguindo o modelo proposto pela Microsoft https://docs.microsoft.com/en-us/dotnet/core/porting/project-structure com esse modelo de estruturação, facilita a visualização dos projetos de fonte, não misturando com os projetos de testes.
+1. Search for deleted IDs: let's create some queries to display IDs that have been deleted from your table:
 
-Abaixo segue uma visão da estrutura de pastas criadas para a solution LogQuake:
+Let's start with a table with 5 records with the following IDs: 3, 4, 12, 16 and 19
+
+And now we may have two needs:
+First fetch all lost IDs starting from code 1
+Second option is to identify the missing IDs between the smallest and largest IDs in my table
+
+
 
