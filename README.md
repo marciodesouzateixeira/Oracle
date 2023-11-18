@@ -41,4 +41,4 @@ As this is a small DB and an experiment, simple indexes have been created on the
 FKs were created for all the necessary fields.
 
 ## Advanced queries:
-- [Advanced queries](docs/advaned_queries.md)
+- [Advanced queries](docs/advanced_queries.md)
