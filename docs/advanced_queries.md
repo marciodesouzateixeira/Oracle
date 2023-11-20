@@ -50,3 +50,8 @@ FROM products_bkp;
 To identify duplicate records, a combination of two instructions Group By and Having Count is necessary, below is the example:
 
 ![duplicated_records](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/39b50c2d-8140-40b7-8140-a5cbdd7e88e7)
+
+## 3. Using rank: ## 
+
+The RANK() function is used to sort the table rows in descending order of sales. The ORDER BY clause is used to specify the sort order. The OVER() function is used to apply the RANK() function to all rows in the table.
+
