@@ -55,3 +55,4 @@ To identify duplicate records, a combination of two instructions Group By and Ha
 
 The RANK() function is used to sort the table rows in descending order of sales. The ORDER BY clause is used to specify the sort order. The OVER() function is used to apply the RANK() function to all rows in the table.
 
+![rank](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/ebe7b1a0-817a-440c-ad2c-b4900cd59bb1)
