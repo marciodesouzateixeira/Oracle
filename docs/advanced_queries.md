@@ -48,3 +48,4 @@ FROM products_bkp;
 ## 2. Duplicated records: ## 
 
 To identify duplicate records, a combination of two instructions Group By and Having Count is necessary, below is the example:
+![duplicated_records](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/39b50c2d-8140-40b7-8140-a5cbdd7e88e7)
