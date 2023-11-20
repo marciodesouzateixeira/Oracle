@@ -44,3 +44,7 @@ SELECT productid
 FROM products_bkp;
 ```
 ![pic_opt2](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/f809c164-e121-42d3-a209-2dc5cfc11339)
+
+## 2. Duplicated records: ## 
+
+To identify duplicate records, a combination of two instructions Group By and Having Count is necessary, below is the example:
