@@ -22,3 +22,4 @@ The first screen we have in the system is the login screen, where the user and p
 
 # Main Menu
 After logging in, the user will be taken to the main menu screen where they will have easy access to all system resources.
+![ofr_mainmenu](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/d7d89d5a-b701-490a-ba59-6d7d6230fbbf)
