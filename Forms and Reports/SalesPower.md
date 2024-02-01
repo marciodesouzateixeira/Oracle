@@ -14,3 +14,6 @@ At SalesPower it is possible:
 
 # Below is an overview of Forms
 ![salespowerfont](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/822e7426-aca8-47ad-a4aa-e533cf88056c)
+
+## Login
+The first screen we have in the system is the login screen, where the user and password are validated, and if the user is not found or the password is invalid, an error message will be returned and if successful, the user will have access to system main menu screen.
