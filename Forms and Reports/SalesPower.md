@@ -13,3 +13,4 @@ At SalesPower it is possible:
 - print a customer report
 
 # Below is an overview of Forms
+![salespowerfont](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/822e7426-aca8-47ad-a4aa-e533cf88056c)
