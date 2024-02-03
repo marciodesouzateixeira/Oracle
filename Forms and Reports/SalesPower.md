@@ -25,4 +25,5 @@ After logging in, the user will be taken to the main menu screen where they will
 ![ofr_mainmenu](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/c68880f3-6fe3-4b75-a082-102c445c492e)
 
 # Users
-https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users.png?raw=true
+![ofr_users](https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users.png?raw=true)
+
