@@ -25,6 +25,14 @@ After logging in, the user will be taken to the main menu screen where they will
 ![ofr_mainmenu](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/c68880f3-6fe3-4b75-a082-102c445c492e)
 
 # Users
-![ofr_users](https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users.png?raw=true)
+On the user registration screen we have the features listed below:
+1. We have a text box to search for the User using ID, if you don't know the User ID you can click on the button that has 3 dots and it will open a screen to search for all registered users
+2. We have the option to clear all fields on the screen
+3. After entering a User code or performing a User search, you can consult all User data
+4. Option to Exit Screen
+5. Option to add a new User
+6. Option to update a User
+7. Option to delete a User
+8. When adding or changing a User, the system will always ask to confirm the User's password
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users.png?raw=true" width=50% height=50%>
 
