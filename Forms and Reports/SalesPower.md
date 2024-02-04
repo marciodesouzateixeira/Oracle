@@ -23,6 +23,7 @@ The first screen we have in the system is the login screen, where the user and p
 # Main Menu
 After logging in, the user will be taken to the main menu screen where they will have easy access to all system resources.
 ![ofr_mainmenu](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/c68880f3-6fe3-4b75-a082-102c445c492e)
+<img src="https://github.com/marciodesouzateixeira/Oracle/assets/44147082/c68880f3-6fe3-4b75-a082-102c445c492e" width=50% height=50%>
 
 # Users
 On the user registration screen we have the features listed below:
