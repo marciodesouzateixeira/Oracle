@@ -36,11 +36,20 @@ On the user registration screen we have the features listed below:
 8. When adding or changing a User, the system will always ask to confirm the User's password
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users.png?raw=true" width=50% height=50%>
 
-# User Update
-To update a user you must follow the following steps:
-1. perform a search by clicking the button with 3 dots, which will open a screen with all registered users.
+# Search User
+To find a user you must follow the following steps:
+1. Perform a search by clicking the button with 3 dots, which will open a screen with all registered users.
 2. You can search by name in the "Find" text box
-3. then you need to click on the "Find" button
-4. and finally click on the "OK" button to return to the previous screen with the selected user
+3. Then you need to click on the "Find" button
+4. Finally click on the "OK" button to return to the previous screen with the selected user
 5. If you want to cancel the search, just click the "Cancel" button
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users_2.png?raw=true" width=50% height=50%>
+
+# User update
+To update a user you first need to follow the steps below:
+1. Inform the User, manually or by searching for it.
+2. Click on Search to load all User fields.
+3. Confirm your password
+4. Click on the "Update" button
+5. If everything is ok, the message that the update was successful will be displayed!
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users_3.png?raw=true" width=50% height=50%>
