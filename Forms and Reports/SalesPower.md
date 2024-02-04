@@ -70,3 +70,16 @@ In the customer registration functionality you have the same resources as in the
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_1.png?raw=true" width=50% height=50%>
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_2.png?raw=true" width=50% height=50%>
 
+# Customer Report
+To generate a Customer report, we have two filter options, in addition to the options to clear the filters and exit the report screen:
+1. If you want to choose a specific customer, simply choose the customer using the button with 3 dots.
+2. It is also possible to generate a report according to male or female gender.
+3. After entering the cli filters, click the Report button.
+4. Note: if you do not enter any filter, all customers will be displayed in the report.
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_3.png?raw=true" width=50% height=50%>
+
+Below is a report, where no filter was provided.
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_4.png?raw=true" width=50% height=50%>
+
+Below is a report, where the gender filter was informed.
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_5.png?raw=true" width=50% height=50%>
