@@ -53,3 +53,10 @@ To update a user you first need to follow the steps below:
 4. Click on the "Update" button
 5. If everything is ok, the message that the update was successful will be displayed!
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_users_3.png?raw=true" width=50% height=50%>
+
+# Product Registration
+In the product registration functionality you have the same resources as in the user registration and in addition we have the following resources:
+1. Search for the category similar to the product search.
+2. The value fields are formatted on the right and with decimal points.
+3. And for the Weight Type and Dimension Type fields, there is a list with fixed values to choose from.
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_products_1.png?raw=true" width=50% height=50%>
