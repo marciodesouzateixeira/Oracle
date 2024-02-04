@@ -15,14 +15,15 @@ At SalesPower it is possible:
 # Below is an overview of Forms
 Below is an overview of the forms available in this project.
 ![salespowerfont](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/822e7426-aca8-47ad-a4aa-e533cf88056c)
+<img src="https://github.com/marciodesouzateixeira/Oracle/assets/44147082/822e7426-aca8-47ad-a4aa-e533cf88056c" width=50% height=50%>
 
 # Login
 The first screen we have in the system is the login screen, where the user and password are validated, and if the user is not found or the password is invalid, an error message will be returned and if successful, the user will have access to system main menu screen.
 ![ofr_login](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/d1e674c4-1d45-4cd6-b08d-bae75f5141e7)
+<img src="https://github.com/marciodesouzateixeira/Oracle/assets/44147082/d1e674c4-1d45-4cd6-b08d-bae75f5141e7" width=50% height=50%>
 
 # Main Menu
 After logging in, the user will be taken to the main menu screen where they will have easy access to all system resources.
-![ofr_mainmenu](https://github.com/marciodesouzateixeira/Oracle/assets/44147082/c68880f3-6fe3-4b75-a082-102c445c492e)
 <img src="https://github.com/marciodesouzateixeira/Oracle/assets/44147082/c68880f3-6fe3-4b75-a082-102c445c492e" width=50% height=50%>
 
 # Users
