@@ -60,3 +60,13 @@ In the product registration functionality you have the same resources as in the 
 2. The value fields are formatted on the right and with decimal points.
 3. And for the Weight Type and Dimension Type fields, there is a list with fixed values to choose from.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_products_1.png?raw=true" width=50% height=50%>
+
+# Customer base
+In the customer registration functionality you have the same resources as in the user registration and in addition we have the following resources:
+1. Being able to select the Genre through a list of values, LOV.
+2. Enter a picture, for this you need to have a folder "C:\SalesPower\Images".
+3. Display this picture.
+4. Report Option
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_1.png?raw=true" width=50% height=50%>
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_2.png?raw=true" width=50% height=50%>
+
