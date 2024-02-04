@@ -77,9 +77,7 @@ To generate a Customer report, we have two filter options, in addition to the op
 3. After entering the cli filters, click the Report button.
 4. Note: if you do not enter any filter, all customers will be displayed in the report.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_3.png?raw=true" width=50% height=50%>
-
 Below is a report, where no filter was provided.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_4.png?raw=true" width=50% height=50%>
-
 Below is a report, where the gender filter was informed.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_5.png?raw=true" width=50% height=50%>
