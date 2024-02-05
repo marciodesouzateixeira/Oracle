@@ -92,7 +92,7 @@ On the sales screen it is possible to make a sale in a simple way for a customer
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_1.png" width=50% height=50%>
 
 **Payment Tab**
-By clicking on the payment tab, you can select the type of payment and then click on the Save button to save the sale in the Database
+By clicking on the payment tab, you can select the type of payment and then click on the Save button to save the sale in the Database.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_2.png" width=50% height=50%>
 
 **Summary Screen**
