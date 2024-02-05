@@ -93,10 +93,12 @@ On the sales screen it is possible to make a sale in a simple way for a customer
 
 **Payment Tab**
 By clicking on the payment tab, you can select the type of payment and then click on the Save button to save the sale in the Database.
+
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_2.png" width=50% height=50%>
 
 **Summary Screen**
 This screen displays the Sale ID, customer name, total value of the sale and the Receipt button is enabled to print the sales receipt.
+
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_3.png" width=50% height=50%>
 
 **Clicking the Receipt button**
