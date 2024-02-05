@@ -42,3 +42,7 @@ FKs were created for all the necessary fields.
 
 ## Advanced queries:
 - [Advanced queries](docs/advanced_queries.md)
+
+## Forms and Reports
+- [Forms and Reports](Forms%20and%20Reports/SalesPower.md)
+
