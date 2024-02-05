@@ -84,6 +84,18 @@
 	"UPDATEDAT" TIMESTAMP (6)
    ) ;
 --------------------------------------------------------
+--  DDL for Table USERS
+--------------------------------------------------------
+
+  CREATE TABLE "C##APP"."USERS" 
+   (	"USER_LOGIN" VARCHAR2(20 BYTE), 
+	"PASSWORD_LOGIN" VARCHAR2(20 BYTE), 
+	"USER_NAME" VARCHAR2(100 BYTE),
+	"CREATEDAT" TIMESTAMP (6), 
+	"UPDATEDAT" TIMESTAMP (6)
+   ) ;
+
+--------------------------------------------------------
 --  DDL for Table CATEGORIES
 --------------------------------------------------------
 
@@ -107,7 +119,10 @@
 	"UPDATEDAT" TIMESTAMP (6), 
 	"EMAIL" VARCHAR2(50 BYTE), 
 	"DOCUMENT" VARCHAR2(30 BYTE), 
-	"GENDER" VARCHAR2(2 BYTE)
+	"GENDER" VARCHAR2(2 BYTE),
+	"PICTURE" VARCHAR2(30 BYTE), 
+	"PHONE" VARCHAR2(16 BYTE), 
+	"ZIPCODE" VARCHAR2(11 BYTE)
    ) ;
 --------------------------------------------------------
 --  DDL for Table GENERICLOG
@@ -147,7 +162,9 @@
 	"AMOUNT" NUMBER(14,2), 
 	"PAYMENTMETHOD" VARCHAR2(50 BYTE), 
 	"CREATEDAT" TIMESTAMP (6), 
-	"UPDATEDAT" TIMESTAMP (6)
+	"UPDATEDAT" TIMESTAMP (6),
+	"TYPEOFPAYMENT" NUMBER,
+	"VALUE" NUMBER(14,2)
    ) ;
 --------------------------------------------------------
 --  DDL for Table PRODUCTS
