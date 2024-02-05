@@ -81,3 +81,24 @@ Below is a report, where no filter was provided.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_4.png?raw=true" width=50% height=50%>
 Below is a report, where the gender filter was informed.
 <img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_customers_5.png?raw=true" width=50% height=50%>
+
+# Sales
+On the sales screen it is possible to make a sale in a simple way for a customer by informing the customer, a list of products, their quantities, prices of each item, informing the payment method and finally printing a receipt for this sale, below are the details for executing this sale:
+1. Enter the customer ID to perform the customer search
+2. Search for products that will be sold
+3. Enter the quantity of each item
+4. Change the value of each unit and at the end of each line obtain the calculated value of each product
+5. Get a total of the purchase amount
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_1.png" width=50% height=50%>
+
+**Payment Tab**
+By clicking on the payment tab, you can select the type of payment and then click on the Save button to save the sale in the Database
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_2.png" width=50% height=50%>
+
+**Summary Screen**
+This screen displays the Sale ID, customer name, total value of the sale and the Receipt button is enabled to print the sales receipt.
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_3.png" width=50% height=50%>
+
+**Clicking the Receipt button**
+The system will generate a preview of the sale that can now be printed by the user.
+<img src="https://github.com/marciodesouzateixeira/Oracle/blob/main/Forms%20and%20Reports/assets/ofr_sales_4.png" width=50% height=50%>
